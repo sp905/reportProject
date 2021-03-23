@@ -1,0 +1,80 @@
+/** @format */
+
+let users = [
+  { userName: "sonu", email: "sonu@gmail.com", password: "12345" },
+  { userName: "acl", email: "acl@gmail.com", password: "12345" },
+];
+
+let data = [
+  {
+    id: "Search Item1",
+    date: "2021-03-22",
+    tbItem1: 100,
+    tbItem2: 200,
+    tbItem3: 300,
+    tbItem4: 400,
+    tbItem5: 500,
+    tbItem6: 600,
+  },
+  {
+    id: "Search Item2",
+    date: "2021-03-21",
+    tbItem1: 150,
+    tbItem2: 250,
+    tbItem3: 350,
+    tbItem4: 450,
+    tbItem5: 550,
+    tbItem6: 650,
+  },
+  {
+    id: "Search Item3",
+    date: "2021-03-01",
+    tbItem1: 160,
+    tbItem2: 260,
+    tbItem3: 370,
+    tbItem4: 470,
+    tbItem5: 200,
+    tbItem6: 650,
+  },
+  {
+    id: "Search Item4",
+    date: "2021-03-02",
+    tbItem1: 180,
+    tbItem2: 280,
+    tbItem3: 380,
+    tbItem4: 410,
+    tbItem5: 210,
+    tbItem6: 610,
+  },
+  {
+    id: "Search Item5",
+    date: "2021-03-10",
+    tbItem1: 120,
+    tbItem2: 220,
+    tbItem3: 320,
+    tbItem4: 450,
+    tbItem5: 250,
+    tbItem6: 650,
+  },
+  {
+    id: "Search Item6",
+    date: "2021-03-12",
+    tbItem1: 110,
+    tbItem2: 210,
+    tbItem3: 310,
+    tbItem4: 420,
+    tbItem5: 220,
+    tbItem6: 620,
+  },
+  {
+    id: "Search Item7",
+    date: "2021-03-16",
+    tbItem1: 700,
+    tbItem2: 250,
+    tbItem3: 350,
+    tbItem4: 450,
+    tbItem5: 330,
+    tbItem6: 330,
+  },
+];
+export { users, data };

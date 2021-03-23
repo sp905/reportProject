@@ -1,0 +1,61 @@
+.homeContainerStyle{
+    flex:1;
+    height: 100%;
+}
+.headerStyle{
+    box-shadow: 0px 4px 10px #03030329;
+    justify-content: flex-end;
+    display: flex;
+    padding: 16px;
+    align-items: center;
+    padding-right: 40px;
+}
+.contentStyle{
+    padding-left: 45px;
+    padding-right: 45px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.enterpriseTextStyle{
+    color:#3B87FF;
+    font-size: 15;
+}
+.reportStyle{
+    font-size: 25;
+    color:#030303;
+    padding-top: 10px;
+}
+
+
+.dateStyle{
+    margin-left: 30px;
+}
+
+.crossStyle{
+    background-color: #268CDC;
+    border-radius: 20px;
+    color: white;
+    padding: 5px;
+    font-size: 12px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+
+.avtarStyle{
+    background-color: #268CDC;
+    border-radius: 20px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    margin-left: 10px;
+}
+.avtarText{
+    color: white;
+    font-size: 15px;
+    padding-top: 5px;
+}
+.logoutStyle{
+    cursor: pointer;
+    font-size: 14px;
+}

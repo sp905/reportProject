@@ -1,0 +1,35 @@
+.containerStyle {
+    flex: 1;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    height: 100%;
+  }
+
+  .containerViewStyle {
+    width: 25%;
+    height: 60%;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;    
+    box-shadow: 0px 4px 10px #03030329;
+    border-radius: 10px;
+  }
+  .loginTextStyle { color: #666666; text-align: center;padding-top: 33px; }
+  .inputContainerStyle{ flex-direction: column;display: flex;margin-left: 30px;margin-right: 30px;margin-top: 25px;}
+  .labelStyle{color:#707070;font-size: 12px;padding-bottom: 10px;}
+  .inputStyle{border: 1px solid #268CDC;padding-top: 10px;padding-bottom: 10px;border-radius: 4px;padding-left: 10px;}
+  .buttonStyle{
+      background-color: #268CDC;
+      padding: 15px;
+      justify-content: center;
+      display: flex;
+      align-items: center;
+      margin: 30px;
+      border-radius: 5px;
+      cursor: pointer;
+  }
+  .bttonTextStyle{
+      color:white;
+      font-size: 15px;
+  }

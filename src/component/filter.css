@@ -1,0 +1,39 @@
+.searchContainerStyle{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 30px;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+}
+.showDurationContainerStyle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.durationlabelStyle{
+    font-size: 14px;
+    padding-bottom: 10px;
+}
+.searchButtonStyle{
+    background-color: #268CDC;
+    padding: 12px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+    margin-top: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 10px;
+}
+
+.imageStyle{
+    object-fit: contain;
+    margin-right: 10px;
+    width: 13px;
+}
+.durationStyle{
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.678);
+}
