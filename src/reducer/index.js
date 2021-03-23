@@ -1,10 +1,10 @@
 /** @format */
 
 import { combineReducers } from "redux";
-import searchReducer from "./searchReducer";
+import Reducer from "./Reducer";
 
 const rootReducer = combineReducers({
-  searchState: searchReducer,
+  reducer: Reducer,
 });
 
 export default rootReducer;

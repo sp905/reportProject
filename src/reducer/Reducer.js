@@ -2,10 +2,10 @@
 
 import { USER } from "../constant";
 const INITIAL_STATE = {
-  searchTerm: "",
+  user: "",
 };
 
-function searchReducer(state = INITIAL_STATE, action) {
+function reducer(state = INITIAL_STATE, action) {
   let { type, payload } = action;
   switch (type) {
     case USER:
@@ -15,4 +15,4 @@ function searchReducer(state = INITIAL_STATE, action) {
   }
 }
 
-export default searchReducer;
+export default reducer;
